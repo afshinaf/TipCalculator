@@ -17,12 +17,13 @@ section {
     align-self: center;
     background-color: #f1f1f1;
     border: 1px solid #a1a1a1;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    pad: 1rem 3rem;
+    padding: 1rem 3rem;
     box-sizing: border-box;
 }
 
@@ -92,7 +93,7 @@ select {
 .button:disabled {
     cursor: default;
   }
-  
+
   .button:focus {
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
   }
